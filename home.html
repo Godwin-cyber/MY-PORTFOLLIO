@@ -1,30 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<title>Portfolio</title>
 </head>
 <body>
+	<!-- Navbar -->
+	<nav>
+		<ul>
+			<a href="#home">Home</a>
+			<a href="#about">About</a>
+			<a href="#work">Work</a>
+			<a href="#resume">Resume</a>
+			<a href="#contact">Contact</a>
+		</ul>
+	</nav>
 	
-	<header>
-		<nav id="nav">
-			<ul>
-                <ul style="display: flex; justify-content: space-between;">
-				<li><a href="./home.html">Home</a></li>
-				<li><a href="./projects.html">Projects</a></li>
-				<li><a href="./about-section.html">About</a></li>
-				<li><a href="./contact-me.html">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section id="home">
+	<!-- About Section -->
+	
+	<section id="about">
+		<h2>About Me</h2>
+		<justify><p>A web developer is a programmer who develops World Wide Web applications using a client–server model. The applications typically use HTML, CSS, and JavaScript in the client, and any general-purpose programming language in the server. HTTP is used for communications between client and server.</justify></p>
+	</section>
+	
+	<!-- Work Section -->
+	<section id="work">
+		<h2>My Work</h2>
+		<ul>
+			<li><a href="#">Project 1</a></li>
+			<li><a href="#">Project 2</a></li>
+			<li><a href="#">Project 3</a></li>
+		</ul>
+	</section>
+	
+	<!-- Resume Section -->
+	<section id="resume">
+		<h2>My Resume</h2>
+		<table>
+			<tr>
+				<th>Education</th>
+				<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+			</tr>
+			<tr>
+				<th>Skills</th>
+				<td>1. Programming skills: Proficiency in languages like HTML, CSS, JavaScript, and server-side languages like PHP, Ruby, and Python.
 
-
-			<h1 class="h1"><marquee>WELLCOME TO MY PORTFOLLIO</marquee></h1>
-			<video src="../../img/hacker videos.mp4" width="100%" height="30%" autoplay controls>
-				
-            </video>
-		</section>
+					2. Web development frameworks: Knowledge of frameworks like React, Angular, Vue.js, and Bootstrap.
+					
+					3. Database management: Understanding of database concepts and proficiency in databases like MySQL, MongoDB, and PostgreSQL.
+					
+					4. Version control: Familiarity with Git and other version control systems.
+					
+					5. Web design: Understanding of design principles and proficiency in design tools like Adobe Creative Suite.
+					
+					6. Testing and debugging: Ability to test and debug code using tools like Chrome DevTools.
+					
+					7. Problem-solving: Strong problem-solving skills and ability to think critically.
+					
+					8. Communication: Good communication skills and ability to work with clients and team members.
+					
+					9. Adaptability: Willingness to learn new technologies and adapt to changing trends.
+					
+					10. Security: Knowledge of web security best practices and ability to write secure code.
+					</td>
+			</tr>
+		</table>
+	</section>
+	
+	<!-- Contact Section -->
+	<section id="contact">
+		<h2>Get in Touch</h2>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name"><br><br>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email"><br><br>
+			<label for="message">Message:</label>
+			<textarea id="message" name="message"></textarea><br><br>
+			<input type="submit" value="Send">
+		</form>
+	</section>
+	
+	<!-- Footer -->
+	<footer>
+		<p>&copy; 2024 Portfolio</p>
+	</footer>
+</body>
+</html>
